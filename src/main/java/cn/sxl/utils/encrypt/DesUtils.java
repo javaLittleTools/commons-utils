@@ -12,6 +12,7 @@ import java.security.SecureRandom;
  * DES 加/解密
  *
  * @author SxL
+ * @since 1.0
  * Created on 12/12/2018 1:25 PM.
  */
 public class DesUtils {

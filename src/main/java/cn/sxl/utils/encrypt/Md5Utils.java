@@ -6,6 +6,7 @@ import java.security.MessageDigest;
  * MD5 加/解密
  *
  * @author SxL
+ * @since 1.0
  * Created on 12/12/2018 1:40 PM.
  */
 public class Md5Utils {

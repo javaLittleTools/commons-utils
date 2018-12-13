@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
  * 封装 {@link HttpServletRequest}
  *
  * @author SxL
+ * @since 1.0
  * Created on 12/12/2018 1:34 PM.
  */
 public class HttpServletRequestUtils {

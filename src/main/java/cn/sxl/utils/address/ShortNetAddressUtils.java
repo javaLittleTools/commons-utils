@@ -15,6 +15,7 @@ import java.net.URLEncoder;
  * 使用度短链接的接口，将其转成短的URL
  *
  * @author SxL
+ * @since 1.0
  * Created on 12/12/2018 2:12 PM.
  */
 public class ShortNetAddressUtils {

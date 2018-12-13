@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
  * 生成二维码
  *
  * @author SxL
+ * @since 1.0
  * Created on 12/12/2018 1:46 PM.
  */
 public class QrCodeUtils {
