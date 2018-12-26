@@ -69,15 +69,9 @@ int calculatorRowIndex(int pageIndex, int pageSize);
 ## QrCodeUtils
 
 ```java
-public class QrCodeArgs {
-    private int height;
+BitMatrix generateQRCode(String content, HttpServletResponse response, Map<EncodeHintType, Object> hints)
 
-    private int width;
-
-    Map<EncodeHintType, Object> hints;
-}
-
-BitMatrix generateQRCode(String content, HttpServletResponse response, QrCodeArgs qrCodeArgs)
+BitMatrix generateQRCode(String content, HttpServletResponse response, int width, int height, Map<EncodeHintType, Object> hints)
 ```
 
 ## HttpServletRequestUtils
@@ -90,3 +84,7 @@ boolean getBoolean(HttpServletRequest request, String key);
 String getString(HttpServletRequest request, String key);
 ```
 
+## PropertyUtils
+```java
+PropertyUtils.getProperty(String propertyPath, String key);
+```
