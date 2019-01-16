@@ -8,7 +8,7 @@ import java.util.Properties;
  * 读取配置文件属性
  *
  * @author SxL
- * @since 1.0.2
+ * @since 1.1.0
  * Created on 12/26/2018 4:01 PM.
  */
 public class PropertyUtils {

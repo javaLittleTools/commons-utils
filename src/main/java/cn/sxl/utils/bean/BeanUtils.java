@@ -135,7 +135,7 @@ public class BeanUtils {
      * @param object
      * @return
      */
-    public static String toString(Object object) {
+    public static String toJsonString(Object object) {
         return ToStringBuilder.reflectionToString(object, ToStringStyle.JSON_STYLE);
     }
 }

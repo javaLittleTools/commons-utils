@@ -25,8 +25,8 @@ public class ShortNetAddressUtils {
     /**
      * 根据传入的url，通过访问百度短链接的接口， 将其转换成短的URL
      *
-     * @param originURL
-     * @return
+     * @param originURL 长链接
+     * @return 短链接
      */
     public static String getShortURL(String originURL) {
         String tinyUrl = null;
