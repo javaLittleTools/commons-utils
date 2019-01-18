@@ -43,8 +43,4 @@ public class Md5Utils {
             return null;
         }
     }
-
-    public static void main(String[] args) {
-        System.out.println(Md5Utils.getMd5("qwer1234"));
-    }
 }

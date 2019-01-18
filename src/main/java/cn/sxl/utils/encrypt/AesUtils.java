@@ -105,15 +105,4 @@ public class AesUtils {
 
         return null;
     }
-
-    public static void main(String[] args) {
-        // 128 bit key
-        String key = "UME_NEUSOFT_GZPT";
-        // 16 bytes IV
-        String initVector = "2017042720501231";
-
-        String en = encrypt(key, initVector, "1be115a815c5abe27216041");
-        System.out.println("en:" + en);
-        System.out.println(decrypt(key, initVector, en));
-    }
 }

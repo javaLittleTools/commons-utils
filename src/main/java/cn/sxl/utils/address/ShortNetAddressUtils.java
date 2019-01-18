@@ -113,13 +113,4 @@ public class ShortNetAddressUtils {
 
         return targetValue;
     }
-
-    /**
-     *  百度短链接接口
-     *
-     * @param args
-     */
-    public static void main(String[] args) {
-        getShortURL("https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login");
-    }
 }
