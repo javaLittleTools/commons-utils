@@ -107,8 +107,4 @@ public class DesUtils {
     public static void setALGORITHM(String ALGORITHM) {
         DesUtils.ALGORITHM = ALGORITHM;
     }
-
-    public static void main(String[] args) {
-        System.out.println(encrypt("dev"));
-    }
 }
